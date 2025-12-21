@@ -2,142 +2,179 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Shubham Patil – Software Developer Portfolio" />
-  <title>Shubham Patil | Software Developer</title>
-  <link rel="stylesheet" href="portfolio.css" />
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Patil | Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+
   <!-- Hero Section -->
-  <section class="hero" id="home">
+  <header class="hero">
     <div class="hero-container">
       <div class="hero-left">
-        <img src="img/myPic.jpg" alt="Photo of Shubham Patil" class="profile-pic" />
+        <img src="img/myPic.jpg" alt="Shubham Patil" class="profile-pic">
       </div>
       <div class="hero-right">
-        <h1>
-          Hi, I'm <span style="color: #00e6e6">Shubham Patil</span>
-        </h1>
-        <h2>Software Developer | Java | Spring Boot | Web Enthusiast</h2>
-        <p>
-          I build responsive and dynamic backend systems using modern Java
-          technologies. Passionate about writing clean code and creating
-          meaningful digital solutions.
-        </p>
-        <a href="#contact" class="btn">View details</a>
+        <h1>Hi, I'm Shubham Patil</h1>
+        <h2>Java Full Stack Developer</h2>
+        <p>I am a passionate Java Full Stack Developer with experience in building backend-focused applications using
+          Spring Boot, Hibernate, and REST APIs. I have worked on real-world projects such as a Real-Time Chat
+          Application and Smart Hostel Management System. I strive to write clean, maintainable code and continuously
+          learn new technologies.</p>
+        <div class="hero-buttons">
+          <a href="https://www.linkedin.com/in/shubham-patil-66b480329" target="_blank" class="btn"><i
+              class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/shubhampatil2308" target="_blank" class="btn"><i class="fab fa-github"></i>
+            GitHub</a>
+          <a href="mailto:shubhampatil68824@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email Me</a>
+        </div>
       </div>
     </div>
-  </section>
+  </header>
 
   <!-- About Section -->
-  <section class="about" id="about">
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      I'm a dedicated Software Developer with a strong foundation in Java
-      and Spring Boot. I thrive on solving complex problems and developing
-      innovative, user-friendly web applications. My goal is to continually
-      grow as a backend developer and contribute to impactful projects.
-    </p>
+    <p>I am a Java Full Stack Developer with hands-on experience in backend-focused web applications using Spring Boot,
+      Hibernate, and REST APIs. I have worked on real-world projects such as Real-Time Chat Application and Smart Hostel
+      Management System. I am passionate about learning new technologies, building scalable applications, and writing
+      clean, maintainable code.</p>
   </section>
 
   <!-- Skills Section -->
-  <section class="skills" id="skills">
-    <h2>My Skills</h2>
+  <section id="skills">
+    <h2>Skills</h2>
     <div class="skill-list">
-      <div class="skill">
-        <span>HTML</span>
-        <img src="img/html.png" alt="HTML logo" />
+      <div class="skill"><img src="img/html.png" alt="HTML"><span>HTML</span></div>
+      <div class="skill"><img src="img/css.png" alt="CSS"><span>CSS</span></div>
+      <div class="skill"><img src="img/js.png" alt="JavaScript"><span>JavaScript</span></div>
+      <div class="skill"><img src="img/java.png" alt="Java"><span>Java</span></div>
+      <div class="skill"><img src="img/sql.png" alt="Oracle SQL"><span>Oracle SQL</span></div>
+      <div class="skill"><img src="img/spring.png" alt="Spring"><span>Spring</span></div>
+      <div class="skill"><img src="img/springboot.png" alt="Spring Boot"><span>Spring Boot</span></div>
+      <div class="skill"><img src="img/sql.png" alt="MySQL"><span>MySQL</span></div>
+      <div class="skill"><img src="img/rest.jpg" alt="REST API"><span>REST API</span></div>
+      <div class="skill"><img src="img/git.png" alt="Git"><span>Git</span></div>
+    </div>
+  </section>
+
+  <!-- Education & Certification Section -->
+  <section id="education">
+    <h2>Education & Certification</h2>
+    <div class="education-grid">
+
+      <div class="education-card">
+        <h3>MCA (Currently)</h3>
+        <p><i class="fas fa-university"></i> Medicaps University, Indore</p>
+        <p>Currently pursuing Master of Computer Applications (MCA) with focus on advanced Java, Spring Boot,
+          Microservices,
+          Database Management, and web application development. Gaining skills in backend architecture, project
+          management, and full-stack integration.</p>
       </div>
-      <div class="skill">
-        <span>CSS</span>
-        <img src="img/css.png" alt="CSS logo" />
+
+      <div class="education-card">
+        <h3>BCA</h3>
+        <p><i class="fas fa-university"></i> Seva Sadan College, Burhanpur</p>
+        <p>Completed Bachelor of Computer Applications (BCA) with a strong foundation in core programming concepts, data
+          structures, database management, web development, and software engineering principles.</p>
       </div>
-      <div class="skill">
-        <span>JavaScript</span>
-        <img src="img/js.png" alt="JavaScript logo" />
-      </div>
-      <div class="skill">
-        <span>MySQL</span>
-        <img src="img/sql.png" alt="MySQL logo" />
-      </div>
-      <div class="skill">
-        <span>Java</span>
-        <img src="img/java.png" alt="Java logo" />
-      </div>
-      <div class="skill">
-        <span>Spring</span>
-        <img src="img/spring.png" alt="Spring Framework logo" />
-      </div>
-      <div class="skill">
-        <span>Spring Boot</span>
-        <img src="img/springBoot.png" alt="Spring Boot logo" />
-      </div>
-      <div class="skill">
-        <span>Microservices</span>
-        <img src="img/microservices.jpg" alt="Microservices icon" />
-      </div>
-      <div class="skill">
-        <span>REST APIs</span>
-        <img src="img/rest.jpg" alt="REST API icon" />
-      </div>
-      <div class="skill">
-        <span>Git</span>
-        <img src="img/git.png" alt="Git logo" />
+
+      <div class="education-card">
+        <h3>Full Stack Java Development Course</h3>
+        <p><i class="fas fa-certificate"></i> Naresh IT, Hyderabad</p>
+        <p>Completed professional certification in Full Stack Java Development, covering:</p>
+        <ul>
+          <li>Java, JDBC, Servlets, JSP</li>
+          <li>Spring, Spring Boot, Hibernate, REST APIs</li>
+          <li>Front-end technologies: HTML, CSS, JavaScript</li>
+          <li>Database: Oracle SQL</li>
+          <li>Project-based learning with real-world applications</li>
+        </ul>
       </div>
 
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section class="projects" id="projects">
+  <section id="projects">
     <h2>Projects</h2>
     <div class="project-grid">
-      <div class="project-card">
-        <h3>SkillShare Hub</h3>
-        <p>
-          A platform for users to share and learn skills. Built with Java,
-          Spring Boot, and a responsive UI.
-        </p>
+
+      <div class="project-card completed">
+        <h3>KnowToUnknown (Real-Time Chat Application)</h3>
+        <p class="project-desc">Developed a real-time chat application using Spring Boot and WebSocket, featuring secure
+          authentication, message persistence, and smooth user experience.</p>
+        <div class="tech-icons">
+          <img src="img/java.png" alt="Java">
+          <img src="img/springboot.png" alt="Spring Boot">
+          <img src="img/sql.png" alt="Oracle SQL">
+        </div>
+        <a href="https://github.com/shubhampatil2308" target="_blank" class="btn">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+        <span class="status completed"><i class="fas fa-check-circle"></i> Completed</span>
       </div>
-      <div class="project-card">
-        <h3>Loan Management System</h3>
-        <p>
-          Java-based application to manage bank loans, EMI payments, and user
-          profiles.
-        </p>
+
+      <div class="project-card ongoing">
+        <h3>Smart Hostel Management System</h3>
+        <p class="project-desc">Currently developing a complete hostel management system using Spring Boot and Oracle
+          SQL. Features include:</p>
+        <ul class="project-features">
+          <li>Admin and user login</li>
+          <li>Room allocation and management</li>
+          <li>Visitor management and notifications</li>
+          <li>Automated hostel operations with reporting</li>
+        </ul>
+        <div class="tech-icons">
+          <img src="img/java.png" alt="Java">
+          <img src="img/springboot.png" alt="Spring Boot">
+          <img src="img/sql.png" alt="Oracle SQL">
+        </div>
+        <span class="status ongoing"><i class="fas fa-spinner fa-spin"></i> Ongoing</span>
       </div>
-      <div class="project-card">
-        <h3>AI Resume Analyzer</h3>
-        <p>
-          An AI tool to analyze resumes and suggest improvements.
-          Integrated with Spring Boot.
-        </p>
-      </div>
+
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section class="contact" id="contact">
+  <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:shubhampatil68824@gmail.com">shubhampatil68824@gmail.com</a></p>
-    <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/shubham-patil-66b480329/"
-        target="_blank">linkedin.com/in/shubham-patil-66b480329/</a>
-    </p>
-    <p>
-      GitHub:
-      <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a>
-    </p>
+
+    <div class="contact-grid">
+
+      <a href="mailto:shubhampatil68824@gmail.com" class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <p>shubhampatil68824@gmail.com</p>
+      </a>
+
+      <a href="https://www.linkedin.com/in/shubham-patil-66b480329" target="_blank" class="contact-card">
+        <i class="fab fa-linkedin"></i>
+        <h3>LinkedIn</h3>
+        <p>Connect with me</p>
+      </a>
+
+      <a href="https://github.com/shubhampatil2308" target="_blank" class="contact-card">
+        <i class="fab fa-github"></i>
+        <h3>GitHub</h3>
+        <p>View my projects</p>
+      </a>
+
+    </div>
   </section>
+
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Shubham Patil. All rights reserved.</p>
+    <p>&copy; 2025 Shubham Patil | Java Full Stack Developer</p>
   </footer>
+
 </body>
 
 </html>
