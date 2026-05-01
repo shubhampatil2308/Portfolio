@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expandable Search</title>
+  <link rel="stylesheet" href="search.css">
+</head>
+<body>
+  <div class="search-bar-container" id="searchBar">
+    <img src="img/search.png" alt="Search Icon" class="magnifier" onclick="toggleSearch()" />
+    <input type="text" class="input" placeholder="Search something..." />
+    <img src="img/mic.png" alt="Microphone Icon" class="mic-icon" />
+  </div>
+
+  <script>
+    function toggleSearch() {
+      const container = document.getElementById('searchBar');
+      container.classList.toggle('active');
+
+      const input = container.querySelector('.input');
+      if (container.classList.contains('active')) {
+        setTimeout(() => input.focus(), 300);
+      } else {
+        input.blur();
+      }
+    }
+  </script>
+</body>
+</html>
